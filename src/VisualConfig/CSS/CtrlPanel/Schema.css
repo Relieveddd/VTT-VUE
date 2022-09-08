@@ -1,0 +1,134 @@
+﻿@charset "utf-8";
+div.ProcUnitHorizBar3R {
+  height: 50px;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+  z-index: 2;
+  position: relative;
+}
+div.ProcUnitHorizBar3R > div[class*="Inner"] {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+div.ProcUnitHorizBar3R > div.InnerMarkLogo3R {
+  width: 180px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+div.ProcUnitHorizBar3R > div.InnerMarkLogo3R img {
+  max-width: 180px;
+  max-height: 34px;
+}
+div.ProcUnitHorizBar3R > div.InnerMark3R {
+  flex: 1;
+  justify-content: flex-end;
+}
+div.ProcUnitHorizBar3R > div.InnerMark3R > div.InnerMarkBtn3R {
+}
+div.ProcUnitHorizBar3R > div.InnerMark3R > div.InnerMarkBtn3R > a {
+  cursor: pointer;
+  margin-right: 26px;
+}
+div.ProcUnitHorizBar3W {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+div.ProcUnitMain3R {
+  min-height: calc(100vh - 52px);
+  display: flex;
+}
+div.ProcUnitMain3R > div.inner-menu-3r {
+  min-width: 200px;
+  background-color: #eaedf1;
+}
+div.ProcUnitMain3R > div.inner-menu-3r > div.ProcUnitHorizBar3W {
+}
+div.ProcUnitMain3R > div.inner-menu-3r > div.ProcUnitHorizBar3W > a.InnerMarkTitle3R {
+  margin-left: 20px;
+  font-size: medium;
+  font-weight: 600;
+}
+div.ProcUnitMain3R > div.InnerMarkRight3R {
+  flex: 1;
+}
+div.ProcUnitMain3R > div.InnerMarkRight3R div.ProcUnitHorizBar3W {
+  background-color: #f5f6f8;
+}
+div.ProcUnitMain3R > div.InnerMarkRight3R div.ProcUnitHorizBar3W a.InnerMarkBtn3R {
+  font-size: 16px;
+  color: #7c849b;
+  padding: 0 17px 0 17px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+div.ProcUnitMain3R > div.InnerMarkRight3R div.ProcUnitHorizBar3W a.InnerMarkBtn3R:hover {
+  color: #434963;
+  background-color: #eaedf1;
+}
+div.ProcUnitMain3R > div.InnerMarkRight3R div.ProcUnitHorizBar3W.AM04Bottom3R {
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 200px);
+}
+div.ProcUnitMain3R > div.InnerMarkRight3R > div.ProcUnitWorkbench3R {
+  /* width: calc(100% - 20px); */
+  width: 100%;
+  height: calc(100vh - 171px);
+  overflow: auto;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.ProcUnitBtn3R {
+  cursor: pointer;
+  white-space: nowrap;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  text-decoration: none;
+  background-color: #dddddd;
+  font-size: 14px;
+  color: #f8f8f8;
+  background-color: #2e6df9;
+  border: 1px solid #2e6df9;
+  height: 28px;
+}
+.ProcUnitBtn3R:hover {
+  color: #ffffff;
+}
+input.ProcUnitTextBox3R {
+  border: 1px solid #e4e7ee;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+  height: 28px;
+}
+div.proc-unit-emph-3r {
+  border: 2px solid var(--ColorSchemaHG);
+  margin: 15px 0 0 15px;
+}
+div.proc-unit-emph-3r > div.inner-component-title-3r {
+  background-color: var(--ColorSchemaHG);
+  display: flex;
+  align-items: center;
+  height: 32px;
+  font-size: medium;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+}
